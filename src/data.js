@@ -68,6 +68,6 @@ export default [
         location: "Munich",
         openSpots: 60,
         host: "Igor",
-        duration: 2;
+        duration: 2,
     }
 ]

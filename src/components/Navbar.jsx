@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import airbnbLogo from '../images/airbnb-logo.png'
-import user from '../images/user.png'
+import airbnbLogo from '../assets/images/airbnb-logo.png'
+import user from '../assets/images/user.png'
+import '../assets/styles/Navbar.css'
 
 function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false)

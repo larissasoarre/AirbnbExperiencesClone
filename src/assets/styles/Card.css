@@ -1,0 +1,65 @@
+.card-container {
+    width: 220px;
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    font-size: 0.9375rem;
+}
+
+.card-container--cover {
+    position: relative;
+    overflow: hidden;
+    height: 293px;
+    border-radius: 9px;
+}
+
+.card-container--img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-container--status {
+    width: 61px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    background-color: #fff;
+    text-transform: uppercase;
+    border-radius: 2px;
+    font-weight: 600;
+}
+
+.card-container--data {
+    margin: 12px 0 0;
+}
+
+.card-container--data p {
+    margin: 5px 0;
+}
+
+.card-container--data .review {
+    display: flex;
+    align-items: center;
+}
+
+.card-container--data .star-review {
+    display: block;
+    height: 12px;
+    width: 12px;
+    fill: black;
+    margin-right: 5px;
+}
+
+.card-container--data .review p {
+    margin: 2px 0 0;
+}
+
+.info {
+    font-family: 'Circular Std Bold', 'sans-serif';
+}

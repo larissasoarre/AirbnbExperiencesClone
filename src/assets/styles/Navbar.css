@@ -1,0 +1,80 @@
+nav {
+    position: relative;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+  }
+  
+  .nav--logo {
+    width: 102px;
+  }
+  
+  .user-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    padding: 8px 8px 8px 14px;
+    border: 0.8px solid rgb(221, 221, 221);
+    cursor: pointer;
+  }
+  
+  .user-menu:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  .nav-links {
+    position: absolute;
+    top: 75px;
+    right: 40px;
+    width: 240px;
+    background-color: #fff;
+    margin: 0;
+    padding: 5px 0;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .nav-links > li {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  
+  .nav-links li:hover {
+    background-color: #F5F1EA;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .hamburger {
+    display: block;
+    fill: none;
+    height: 16px;
+    width: 16px;
+    stroke: currentcolor;
+    stroke-width: 3px;
+    overflow: visible;
+  }
+  
+  .user-img {
+    width: 32px;
+    margin-left: 14px;
+  }
+  
+  .divisor {
+    border: none;
+    border-bottom: 0.8px solid rgb(221, 221, 221);
+    margin: 0 16px;
+  }
+  
+  .divisor.links {
+    margin: 8px 0;
+  }
